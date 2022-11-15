@@ -27,7 +27,7 @@ function readURL(input) {
     };
     reader.readAsDataURL(input.files[0]);
   }
-}  
+}
 function readURL(input) {
   if (input.files && input.files[0]) {
     var reader = new FileReader();
@@ -39,7 +39,7 @@ function readURL(input) {
     };
     reader.readAsDataURL(input.files[0]);
   }
-} 
+}
 var expanded = false;
 
 function showCheckboxes() {
@@ -72,7 +72,7 @@ $('.feature-carousel').owlCarousel({
     }
 })
 $('.main-carousel').owlCarousel({
-  
+
     loop:true,
     margin:10,
     nav:true,
@@ -98,7 +98,7 @@ var swiper = new Swiper(".mySwiper", {
     breakpoints: {
       640: {
         slidesPerView: 1,
-        
+
       },
       768: {
         slidesPerView: 4,
@@ -107,7 +107,7 @@ var swiper = new Swiper(".mySwiper", {
         slidesPerView: 5,
       },
     },
-    
+
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -127,7 +127,7 @@ var swiper = new Swiper(".mySwiper", {
     breakpoints: {
       640: {
         slidesPerView: 1,
-        
+
       },
       768: {
         slidesPerView: 4,
@@ -136,7 +136,7 @@ var swiper = new Swiper(".mySwiper", {
         slidesPerView: 4,
       },
     },
-    
+
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -156,7 +156,7 @@ var swiper = new Swiper(".mySwiper", {
     breakpoints: {
       640: {
         slidesPerView: 2,
-        
+
       },
       768: {
         slidesPerView: 4,
@@ -165,7 +165,7 @@ var swiper = new Swiper(".mySwiper", {
         slidesPerView: 7,
       },
     },
-    
+
     pagination: {
       el: ".swiper-pagination",
       type: "fraction",
@@ -193,7 +193,7 @@ function writeText() {
   } else {
     return false;
   }
-  
+
   setTimeout(writeText, 20);
 
 }
@@ -212,7 +212,7 @@ function writeTextP() {
   } else {
     return false;
   }
-  
+
   setTimeout(writeTextP, 80);
 
 }
