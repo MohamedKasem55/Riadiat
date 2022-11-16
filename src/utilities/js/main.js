@@ -118,6 +118,7 @@ var swiper = new Swiper(".mySwiper", {
     },
 
   });
+  (swiper||{})
   var swiper = new Swiper(".mySwiper-courses", {
     // slidesPerView: 1,
     centeredSlides: true,

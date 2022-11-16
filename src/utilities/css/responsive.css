@@ -5,7 +5,7 @@
     }
 
     .swiper-wrapper {
-        margin: 0px -450px !important;
+        /* margin: 0px -450px !important; */
 
     }
 }
@@ -219,7 +219,7 @@
     .profile-services .list-group{
         position: inherit !important;
         width: 100% !important;
-    
+
     }
 
 

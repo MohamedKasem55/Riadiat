@@ -5,6 +5,7 @@ import { HeaderComponent } from 'src/core/components/header/header.component';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HomeModule } from './featured-modules/home/home.module';
+import { SwiperModule } from 'swiper/angular';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,9 @@ import { HomeModule } from './featured-modules/home/home.module';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HomeModule
+    HomeModule,
+  SwiperModule,
+
   ],
   providers: [],
   bootstrap: [AppComponent]
